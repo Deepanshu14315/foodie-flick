@@ -12,7 +12,7 @@ const Navbar = () => {
           {new Date().toUTCString().slice(0, 16)}
         </h1>
         <Link to="/" className="logo flex items-center cursor-pointer">
-          <img src="src/assets/logo.png" className="w-12 mr-2" alt="" />
+          <img src="../src/assets/logo.png" className="w-12 mr-2" alt="" />
           <h1 className="text-2xl font-bold">Foodie Flick</h1>
         </Link>
       </div>
