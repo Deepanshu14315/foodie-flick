@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { setSearch } from "../Redux/Slices/SearchSlice";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const Navbar = () => {
           {new Date().toUTCString().slice(0, 16)}
         </h1>
         <Link to="/" className="logo flex items-center cursor-pointer">
-          <img src="../src/assets/logo.png" className="w-12 mr-2" alt="" />
+          <img src={logo} className="w-12 mr-2" alt="" />
           <h1 className="text-2xl font-bold">Foodie Flick</h1>
         </Link>
       </div>
