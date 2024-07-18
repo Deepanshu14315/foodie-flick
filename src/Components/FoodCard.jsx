@@ -13,7 +13,7 @@ const FoodCard = ({ AllFoods }) => {
     <>
       <Toaster position="top-center" reverseOrder={false} />
 
-      <div className="w-64 bg-white p-5 rounded-lg ">
+      <div className="w-64 bg-white p-5 rounded-xl shadow-xl">
         <div className="h-36 w-full">
           <img
             className="h-full w-full object-fill hover:scale-110 transition-all duration-500 ease-in-out"
